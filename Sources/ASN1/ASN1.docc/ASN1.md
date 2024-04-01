@@ -41,7 +41,7 @@ Shows how to decode a byte array containing an ASN1 structure
 
 ```swift
 import ASN1
-import BigInt
+import Asn1BInt
 
 // ASN1 encoding of a private key for the brainpoolP160r1 elliptic curve domain
 let keyBytes: Bytes = [48, 84, 2, 1, 1, 4, 20, 41, 214, 158, 187, 255, 44, 248,
@@ -84,7 +84,7 @@ Private key = 238854808789429455904277046626010014418497476175
 Shows how to build an ASN1 structure programmatically and encode it to a byte array
 ```swift
 import ASN1
-import BigInt
+import Asn1BInt
 
 let privKey = BInt("238854808789429455904277046626010014418497476175")!
 
@@ -115,11 +115,11 @@ dependencies: [
 ]
 ```
 
-ASN1 itself depends on the BigInt package
+ASN1 itself depends on the Asn1BInt package
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/leif-ibsen/BigInt", from: "1.16.0"),
+  .package(url: "https://github.com/leif-ibsen/Asn1BInt", from: "1.16.0"),
 ],
 ```
 
