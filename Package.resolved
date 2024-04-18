@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/xueyuejie/Asn1BInt.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "c38fa5c314ff1041a2db67ab86e03f9f6ee7e4b9"
+        "revision" : "c38fa5c314ff1041a2db67ab86e03f9f6ee7e4b9",
+        "version" : "1.17.1"
       }
     }
   ],
